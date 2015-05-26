@@ -1,6 +1,10 @@
 set :application, 'mavericks'
 set :repo_url, 'git@github.com:drobin03/mavericks.git'
 
+
+set :scm, :git
+set :git_strategy, Capistrano::Git::SubmoduleStrategy
+
 # Branch options
 # Prompts for the branch name (defaults to current branch)
 #ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
