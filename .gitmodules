@@ -1,0 +1,3 @@
+[submodule "web/app/themes/mavericks-theme"]
+	path = web/app/themes/mavericks-theme
+	url = git@github.com:drobin03/mavericks-theme.git
