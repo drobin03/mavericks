@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "338ecd92236a222f40d2134ca3f13f11",
+    "hash": "9ba93fb5546502d4058f2329bc58c84b",
     "packages": [
         {
             "name": "composer/installers",
@@ -252,6 +252,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-excerpt/"
+        },
+        {
+            "name": "wpackagist-plugin/autochimp",
+            "version": "2.15",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/autochimp/",
+                "reference": "tags/2.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autochimp.2.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autochimp/"
         },
         {
             "name": "wpackagist-plugin/subtitles",

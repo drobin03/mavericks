@@ -45,7 +45,8 @@
     "vlucas/phpdotenv": "~1.0.9",
     "johnpbloch/wordpress": "4.2.2",
     "wpackagist-plugin/subtitles": "2.0.1",
-    "wpackagist-plugin/advanced-excerpt": "4.2.3"
+    "wpackagist-plugin/advanced-excerpt": "4.2.3",
+    "wpackagist-plugin/autochimp": "2.15"
   },
   "extra": {
     "installer-paths": {
