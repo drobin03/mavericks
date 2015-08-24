@@ -47,7 +47,8 @@
     "wpackagist-plugin/subtitles": "2.0.1",
     "wpackagist-plugin/advanced-excerpt": "4.2.3",
     "wpackagist-plugin/autochimp": "2.15",
-    "wpackagist-plugin/clickfunnels": "1.0.8"
+    "wpackagist-plugin/clickfunnels": "1.0.8",
+    "wpackagist-plugin/simple-drop-cap": "1.2.8"
   },
   "extra": {
     "installer-paths": {

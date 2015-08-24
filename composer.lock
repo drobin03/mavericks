@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e23f99533727d59e80f1203e9d5e0ad2",
+    "hash": "5969f886dc4a1e5ba11448a1e69c3cd9",
     "packages": [
         {
             "name": "composer/installers",
@@ -296,6 +296,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/clickfunnels/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-drop-cap",
+            "version": "1.2.8",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/simple-drop-cap/",
+                "reference": "tags/1.2.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-drop-cap.1.2.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-drop-cap/"
         },
         {
             "name": "wpackagist-plugin/subtitles",
