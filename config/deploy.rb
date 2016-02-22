@@ -28,7 +28,8 @@ set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
 set :tmp_dir, "/home3/delibet2/capistrano_tmp"
 
 SSHKit.config.command_map[:bash] = "/usr/bin/bash"
-SSHKit.config.command_map[:composer] = "php-cli /home3/delibet2/composer.phar"
+# Patch to make composer work on Bluehost
+SSHKit.config.command_map[:composer] = "/ramdisk/php/54/bin/php54-cli /home3/delibet2/composer.phar"
 
 namespace :deploy do
   desc 'Restart application'
